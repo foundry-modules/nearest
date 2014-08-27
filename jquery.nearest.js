@@ -173,7 +173,7 @@ $.fn.nearest = function(items, direction) {
 
     var fromItem = this,
         toItem,
-        nearestItem,
+        nearestItem = $(),
         itemDistance,
         minItemDistance = null,
         i = -1,
